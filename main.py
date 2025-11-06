@@ -112,13 +112,13 @@ def main():
     if setting.strip():
         print(f"Set in: {setting}")
     story = generate_story(user_prompt, category, character, setting)
-    print("first draft") #delete
-    print(story) #delete
+    #print("first draft")
+    #print(story)
     feedback = judge_story(story)
-    print("feedback") #delete
-    print(feedback) #delete
+    #print("feedback")
+    #print(feedback)
     refined_story = refine_story(story, feedback)
-    print("final") #delete
+    #print("final")
     print(refined_story)
     while True:
         choice = input("Would you like any changes? (yes/no): ").strip().lower()
