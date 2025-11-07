@@ -3,7 +3,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 
 """
-Before submitting the assignment, describe here in a few sentences what you would have built next if you spent 2 more hours on this project:
+Before submitting the assignment, describe here in a few sentences what you would have built next if you spent 2 more hours on this project: I would have made the analyze_request function more vague where the user can input whatever they want without it being categorized. I would have the changed the prompting to not categorize the story at all but keep an overall idea of what the user wants to see. 
 
 """
 
